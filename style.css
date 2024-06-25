@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/start-1920-860645.png');
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+
+.btn {
+  background-image: url('images/brick.png');
+  background-size: cover;
+  border: none;
+  color: #f7f8f7;
+  text-shadow: 1px 1px 5px black;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+@media(min-width: 1240px) {
+  .soundpanel {
+    width: 70%;
+  }
+}
+
